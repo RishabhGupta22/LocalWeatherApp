@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Local Weather App</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="top">
+  <div class="container container-fluid">
+    <div class="jumbotron">
+      <h1 class=" head well text-center">Local Weather Application</h1>
+      <br>
+
+      <div class="mid well text-center">
+        <br>
+        <p> <span id="city"></span><span id="country"></span></p>
+        
+        <p><span class="text-center" id="temp"></span><span class="temp" id="unit"></span><span>&nbsp;<button class="btn responsive-width btn-danger switch ">°C / °F</button> </span>
+        </p>
+   
+        <hr>
+        <br>
+        <br>
+        <div class="row">
+          <div class="col-xs-4">
+        <p><i class="fa fa-compass fa-3x"></i><br><span id="degree"></span><span id ="wind"></span><span id="windunit">&nbsp;KM/H<br><p id="desc">WIND</p></span></p>
+            </div>
+          <div class="col-xs-4">
+        <p> <i class="fa fa-tint fa-3x"></i><br><span id="humidity"></span><span id="per">&nbsp;%<br><p id="desc">HUMIDITY</p></span></p>
+            </div>
+          <div class="col-xs-4">
+       <p><i class="fa fa-tachometer fa-3x "></i><br><span id="pressure"></span><span id="pr">&nbsp; K/Pa<br><p id="desc">PRESSURE</p></span></p>
+            </div>
+          </div>
+        <br>
+        
+        <hr>
+     <p><span id="status"></span></p>
+        
+        <div id="iconwell"class="well text-center">
+         
+         </div>
+        
+       </div>
+     
+    </div>
+    <hr>
+    <p id="name"class=" foot text-center">Designed and Coded By <b><a href="https://codepen.io/rishabhgupta/" target="_blank">Rishabh Gupta</a></b></p>
+    <hr>
+  </div>
+  </div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
